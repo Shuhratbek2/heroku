@@ -7,7 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node index.js"
     },
-    "author": "\"Shuhrat\"",
+    "author": "Shuhrat",
     "license": "ISC",
     "dependencies": {
         "telebot": "^1.4.1"
