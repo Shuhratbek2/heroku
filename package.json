@@ -1,14 +1,15 @@
 {
-  "name": "telegram_bot_node_js",
-  "version": "1.0.0",
-  "description": "\"sinov bot ilk bot\"",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "\"Shuhrat\"",
-  "license": "ISC",
-  "dependencies": {
-    "telebot": "^1.4.1"
-  }
+    "name": "telegram_bot_node_js",
+    "version": "1.0.0",
+    "description": "\"sinov bot ilk bot\"",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "\"Shuhrat\"",
+    "license": "ISC",
+    "dependencies": {
+        "telebot": "^1.4.1"
+    }
 }
