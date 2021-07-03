@@ -1,4 +1,3 @@
-const TELEGRAM_BOT_TOKEN = '1890115523:AAH9yER6jdQnyVaLlnVsygixpnRLfiyPWPM';
 const TeleBot = require('telebot');
 const bot = new TeleBot(TELEGRAM_BOT_TOKEN);
 
@@ -6,7 +5,7 @@ const bot = new TeleBot(TELEGRAM_BOT_TOKEN);
 
 bot.on("/start", (msg) => {
     bot.sendMessage(msg.chat.id, `
-        Assalomu aleykum men Hisobchi do'stingizman 
+    Assalomu aleykum men Hisobchi do'stingizman 
         men sizga Metamatik hisob kitobigizga yodam beraman,
         mendan foydalanisihingiz uchun oldin foydalanish  
         qoidalar bilan tanishing,
@@ -50,6 +49,6 @@ bot.on("/qoidalar2", (msg) => {
 bot.start();
 
 // shuhratreyimboyevcoder@gmail.com
-
-// bearded-whistler-92139   
-// https://bearded-whistler-92139.herokuapp.com/
+// const TELEGRAM_BOT_TOKEN = '';
+// evening-stream-64178
+// https://evening-stream-64178.herokuapp.com/
