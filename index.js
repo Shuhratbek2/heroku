@@ -56,6 +56,5 @@ bot.on("/online", (msg) => {
 bot.start();
 
 // shuhratreyimboyevcoder@gmail.com
-// const TELEGRAM_BOT_TOKEN = '';
-// evening-stream-64178
-// https://evening-stream-64178.herokuapp.com/
+// beautiful-badlands-55943
+// https://beautiful-badlands-55943.herokuapp.com/

@@ -1,18 +1,23 @@
 {
     "name": "telegram_bot_node_js",
     "version": "1.0.0",
-    "description": "\"sinov bot ilk bot\"",
+    "description": "'telegram bot'",
     "main": "index.js",
     "scripts": {
         "start": "node index.js"
     },
-    "author": "Shuhrat",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Shuhratbekgo/bo-t.git"
+    },
+    "author": "'Shuhrat'",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Shuhratbekgo/bo-t/issues"
+    },
+    "homepage": "https://github.com/Shuhratbekgo/bo-t#readme",
     "dependencies": {
         "dotenv": "^10.0.0",
         "telebot": "^1.4.1"
-    },
-    "engines": {
-        "node": "14.16.0"
     }
 }
