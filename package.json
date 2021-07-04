@@ -9,6 +9,7 @@
     "author": "Shuhrat",
     "license": "ISC",
     "dependencies": {
+        "dotenv": "^10.0.0",
         "telebot": "^1.4.1"
     },
     "engines": {

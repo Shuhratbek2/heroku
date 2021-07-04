@@ -1,6 +1,8 @@
 const TeleBot = require('telebot');
+const dotenv = require("dotenv");
+dotenv.config();
+const TELEGRAM_BOT_TOKEN = process.env.BOT_TOKEN;
 const bot = new TeleBot(TELEGRAM_BOT_TOKEN);
-
 
 
 bot.on("/start", (msg) => {
@@ -31,7 +33,7 @@ bot.on("/qoidalar1", (msg) => {
     return bot.sendMessage(msg.chat.id, `
                 Qoidalar.
         Siz ushbu botdan foydalanishingiz uchun ba'zi qoidalarni bilishingiz kerak!
-        
+
         ko'paytirish uchun bu belgidan foydalaning (*),
         Bo'lish amali uchun bu belgidan fodalaning (/),
         Qo'shish va ayirish uchun esa (+ va - ) amalidan foydalning,
