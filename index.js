@@ -48,6 +48,11 @@ bot.on("/qoidalar2", (msg) => {
      Ungacha oddiy hisob-kitob ishlarini bajarib turing!
     `)
 })
+bot.on("/online", (msg) => {
+    bot.sendMessage(msg.chat.id, `
+    Salom men hisobchi botman , va men onlineman
+    `)
+})
 bot.start();
 
 // shuhratreyimboyevcoder@gmail.com
