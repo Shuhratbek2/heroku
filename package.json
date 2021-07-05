@@ -8,14 +8,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Shuhratbekgo/bo-t.git"
+        "url": "git+https://github.com/Shuhratbek2/heroku.git"
     },
     "author": "'Shuhrat'",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Shuhratbekgo/bo-t/issues"
+        "url": "https://github.com/Shuhratbek2/heroku/issues"
     },
-    "homepage": "https://github.com/Shuhratbekgo/bo-t#readme",
+    "homepage": "https://github.com/Shuhratbek2/heroku#readme",
     "dependencies": {
         "dotenv": "^10.0.0",
         "telebot": "^1.4.1"
